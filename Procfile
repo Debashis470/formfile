@@ -1,2 +1,3 @@
-web: gunicorn formfield.wsgi
+web: gunicorn formfield.wsgi:application
+
 
